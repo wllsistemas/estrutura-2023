@@ -26,5 +26,19 @@ echo $resultado . '<br>';
 
 echo 'Resultado da divisão: ' .  ($valor2 % $valor3);
 
+if ():
+
+endif;
+
+
+
+if (){
+
+}
+
+
+
+
+
 
 
