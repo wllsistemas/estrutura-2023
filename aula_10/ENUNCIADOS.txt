@@ -1,0 +1,36 @@
+-------------------------------------------------------------------
+1 - CONTA BANCÁRIA
+-> 19:00 ATÉ 19:10 HS ALINHAMENTO
+-> 19:10 ATÉ 20:00 HS (50 MINUTOS)
+*******************************************************************
+1 - Bloquear operações que deixem a conta "NEGATIVA"
+2 - Exibir Qtde de movimentos efetuados nas contas
+3 - Exibir Saldo após movintações da Corrente e Poupança
+4 - Listar Total de movimento em "CRÉDITO" na Corrente e Poupança
+5 - Listar Total de movimento em "DÉBITO" na Corrente e Poupança
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+2 - SISTEMA HOSPITALAR
+-> 20:00 ATÉ 20:10 HS ALINHAMENTO
+-> 20:10 ATÉ 21:10 HS (50 MINUTOS)
+-> INTERVALO DAS 20:40 ATÉ AS 20:50 HS
+*******************************************************************
+1 - Total de pacientes que entraram no hospital
+2 - Quantos pacientes estão parados por departamento
+3 - Listar nome da recepcionista e quantos pacientes ele atendeu
+4 - Listar nome dos pacientes que já passaram pela consulta médica
+5 - Listar nome do médico e nome do paciente que atendido
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+3 - SISTEMA DE VENDAS
+-> 21:10 ATÉ 21:20 HS ALINHAMENTO
+-> 21:20 ATÉ 22:10 HS (50 MINUTOS)
+*******************************************************************
+1 - Exibir Valor Total Vendido
+2 - Exibir Valor Total por Forma de Pagamento
+3 - Listar Código do Cliente e Total Vendido por cliente
+4 - Listar Código do Cliente e Total de Desconto por cliente
+5 - Listar Descrição e Total em Valor e Qtde vendido por produto
+-------------------------------------------------------------------
