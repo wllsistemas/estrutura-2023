@@ -1,0 +1,11 @@
+a{
+    margin: 0 10px;
+}
+
+a.active{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    padding: 5px;
+}
