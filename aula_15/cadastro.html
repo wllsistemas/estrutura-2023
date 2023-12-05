@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="gravar.php" method="post">
+        <input type="text" name="nome" placeholder="Informe seu Nome"><br><br>
+        <input type="date" name="data_nascimento"><br><br>
+        <input type="number" name="idade" placeholder="Informe sua Idade"><br><br>
+        <input type="email" name="email" placeholder="Informe seu E-mail"><br><br>
+        <label>Informe o Sexo</label><br>
+        <input type="radio" name="sexo" value="MASCULINO"> Masculino
+        <input type="radio" name="sexo" value="FEMININO" checked> Feminino<br><br>
+        <label>Informe o Estado</label><br>
+        <select name="uf">
+            <option value="">Selecione</option>
+            <option value="SP">São Paulo</option>
+            <option value="RJ" selected>RJ</option>
+            <option value="PR">PR</option>
+        </select><br><br>
+        <label for="possui_faculdade">
+            <input type="checkbox" 
+                   id="possui_faculdade" 
+                   name="possui_faculdade" 
+                   value="S"> Possui Faculdade
+        </label><br><br>
+        <button type="submit">Gravar</button>
+    </form>
+</body>
+</html>
