@@ -33,9 +33,7 @@ function DateIngToBr($value){
 //     exit;
 // endif;
 
-
-echo password_hash('123', PASSWORD_DEFAULT);
-
-
+echo '<pre>';
+var_dump($_POST);
 
 

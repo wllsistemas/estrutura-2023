@@ -13,7 +13,7 @@
         <input type="email" name="email" placeholder="Informe seu E-mail"><br><br>
         <label>Informe o Sexo</label><br>
         <input type="radio" name="sexo" value="MASCULINO"> Masculino
-        <input type="radio" name="sexo" value="FEMININO" checked> Feminino<br><br>
+        <input type="radio" name="sexo" value="FEMININO"> Feminino<br><br>
         <label>Informe o Estado</label><br>
         <select name="uf">
             <option value="">Selecione</option>
@@ -27,6 +27,16 @@
                    name="possui_faculdade" 
                    value="S"> Possui Faculdade
         </label><br><br>
+        <p>Linguagens</p>
+        <label for="php">
+            <input type="checkbox" name="linguagens[]" id="php" value="PHP"> PHP
+        </label>
+        <label for="java">
+            <input type="checkbox" name="linguagens[]" id="java" value="JAVA"> JAVA
+        </label>
+        <label for="c">
+            <input type="checkbox" name="linguagens[]" id="c" value="C#"> C#
+        </label><br>
         <button type="submit">Gravar</button>
     </form>
 </body>
